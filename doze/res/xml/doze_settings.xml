@@ -61,4 +61,14 @@
         android:defaultValue="0xFF3980FF"
         android:dependency="pulse_ambient_light" />
 
+    <com.aicp.gear.preference.SystemSettingSeekBarPreference
+        android:key="pulse_ambient_light_duration"
+        android:title="@string/pulse_ambient_light_duration_title"
+        android:max="10"
+        android:min="1"
+        aicpextras:unitsLeft=""
+        aicpextras:unitsRight="sec"
+        android:defaultValue="2"
+        android:dependency="pulse_ambient_light" />
+
 </PreferenceScreen>
